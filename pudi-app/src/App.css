@@ -1,0 +1,30 @@
+
+/* Declaring Variables */
+
+/* Navbar */
+
+.logo{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  
+}
+.navbar{
+  background-color: blue;
+ display: flex;
+ flex-direction: row;
+ gap: 40%;
+}
+
+.nav-ele ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-ele ul li{
+  list-style: none;
+  margin: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 20px;
+}

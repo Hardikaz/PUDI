@@ -5,7 +5,7 @@ import logo from "../Assets/logo.png"
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <img src={logo} alt="Here is an icon" />
+            <img className="logo" src={logo} alt="Here is an icon" />
 
             <div className="nav-ele">
                 <ul>
