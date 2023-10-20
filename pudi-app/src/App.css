@@ -18,7 +18,8 @@
   width: 80px;
   margin: 10px;
   padding: 10px;
-  
+  background-color: rgba(0, 0, 0, 0.54);
+  border: 1px solid rgba(255, 255, 255, 0.488);
 }
 .navbar{
   background-color: rgba(31, 30, 30, 0.874);
@@ -31,7 +32,7 @@
  position: sticky;
  width: 100vw;
  top: 0px;
- height: 12vh;
+ height: 15vh;
 }
 
 .nav-ele ul{
@@ -261,4 +262,12 @@ display: flex;
 
   .Card .Card_des p{
     font-size: 30px;
+  }
+
+  .Card:hover{
+    position: relative;
+    bottom: 50px;
+    transition: 1s;
+    background-color: rgb(105, 86, 58);
+    
   }
