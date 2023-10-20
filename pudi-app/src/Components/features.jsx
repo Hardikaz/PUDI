@@ -9,7 +9,7 @@ const features = () =>{
         <div className="features">
         <p>Features</p>
         <div className="features_containers"> 
-             <Card src={JustInTime} name="Smile"/>
+             <Card src={JustInTime} name="Just in time"/>
              <Card src={Inventory} name="Inventory"/>
              <Card src={OneStop} name="One stop"/>
              <Card src={Support} name="24/7 Support"/>
