@@ -36,7 +36,12 @@
 
 }
 
-.nav-ele ul li:hover{
+.nav-ele ul li a:hover{
   color: var(--theme_color);
   cursor:grab ;
+}
+
+.nav-ele ul li a{
+  text-decoration: none;
+  color: black;
 }

@@ -9,10 +9,10 @@ const Navbar = () => {
 
             <div className="nav-ele">
                 <ul>
-                    <li>Home</li>
-                    <li>About PUDI</li>
-                    <li>Why Us</li>
-                    <li>Contact</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About PUDI</a></li>
+                    <li><a href="#">Why Us</a></li>
+                    <li><a href="#">Contact</a></li>
 
                 </ul>
             </div>
