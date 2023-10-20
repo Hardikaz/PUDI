@@ -8,6 +8,7 @@
 :root{
   --theme_color: rgb(3, 251, 152);
   --text_color: rgb(32, 251, 3);
+  --brown_color: rgb(128, 115, 96);
 }
 
 /* Navbar */
@@ -212,4 +213,52 @@ display: flex;
 
   .infoSection2-content p{
     padding: 0px 30px 0px 30px;
+  }
+/* FEATURES */
+.features{
+  height: 105vh;
+  width: 100vw;
+  background-color: blanchedalmond;
+ 
+}
+
+.features_containers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+
+}
+.features p{
+  text-align: center;
+  color: var(--theme_color);
+  font-size: 10vh;
+  font-weight: bold;
+  padding: 10px;
+}
+  /* FEATURE_CARD CARD */
+
+  .Card{
+  height: 40vh;
+  width: 20vw;
+  border: 2px solid blanchedalmond;
+  background-color: blanchedalmond;
+  margin: 10px 30px 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  }
+
+  .Card .Card_icon img{
+    height: 150px;
+    width: 150px;
+   
+  }
+
+  .Card .Card_des p{
+    font-size: 30px;
   }
