@@ -8,15 +8,14 @@ return (
     <div className="sectionBg">
         <img decoding="async" className="img-slide active" src={BG1} alt="Here is an image 1"></img>
         {/* <img decoding="async" className="img-slide" src={BG2} alt="Here is an image 2"></img>
-        <img className="img-slide" src={BG3} alt="Here is an image 3"/>
-        */}
+        <img className="img-slide" src={BG3} alt="Here is an image 3"/> */}
+       
     </div>
-    <div class="slider-navigation">
-            <div class="nav-btn active"></div>
-            <div class="nav-btn"></div>
-            <div class="nav-btn"></div>
-            <div class="nav-btn"></div>
-            <div class="nav-btn"></div>
+    <div className="slider-navigation">
+            <div className="nav-btn active"></div>
+            <div className="nav-btn"></div>
+            <div className="nav-btn"></div>
+            
     </div>
 </div> 
 )
