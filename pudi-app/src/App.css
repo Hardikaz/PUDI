@@ -1,4 +1,9 @@
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 /* Declaring Variables */
 :root{
   --theme_color: rgb(3, 251, 152);
@@ -14,13 +19,17 @@
   
 }
 .navbar{
-  background-color: white;
+  background-color: rgba(31, 30, 30, 0.608);
  display: flex;
  flex-direction: row;
  gap: 40%;
  border-bottom: 2px solid rgba(0, 0, 0, 0.185);
  align-items: center;
  justify-content: center;
+ position: sticky;
+ width: 100vw;
+ top: 0px;
+ height: 12vh;
 }
 
 .nav-ele ul{
@@ -41,4 +50,54 @@
   cursor:grab ;
 }
 
+/* SECTION BG */
+.sectionBg {
+  height: 87vh;
+  width: 100vw;
+  text-align: center;
+  
+}
 
+.sectionBg img{
+  
+  height: 87vh;
+  width: 100vw;
+}
+
+
+
+/* SLIDER */
+
+.slider-navigation{
+  z-index: 888;
+  position: absolute;
+  bottom: 12%;
+  left: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(80px);
+  margin-bottom: 12px;
+}
+
+.slider-navigation .nav-btn{
+  width: 12px;
+  height: 12px;
+  background: greenyellow;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+  transition: 0.3s ease;
+}
+
+.slider-navigation .nav-btn.active{
+  background: #09a6d4;
+}
+
+.slider-navigation .nav-btn:not(:last-child){
+  margin-right: 20px;
+}
+
+.slider-navigation .nav-btn:hover{
+  transform: scale(1.2);
+}
