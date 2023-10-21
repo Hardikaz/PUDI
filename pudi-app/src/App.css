@@ -23,7 +23,7 @@
   border: 1px solid rgba(255, 255, 255, 0.488);
 }
 .navbar{
-  background-color: rgba(31, 30, 30, 0.874);
+  background-color: rgba(0, 0, 0, 0.874);
  display: flex;
  flex-direction: row;
  gap: 40%;
@@ -324,12 +324,12 @@ display: flex;
   }
 
   /* Hidden */
-.hidden{
+/* .hidden{
   opacity: 0;
-  transition: all 2s;
-}
+  transition:all 0.5s;
+} */
 
  /* Show */
-.show{
+/* .show{
   opacity: 1;
-}
+} */

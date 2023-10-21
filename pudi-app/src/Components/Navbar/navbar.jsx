@@ -11,8 +11,8 @@ const Navbar = () => {
                 <ul>
                     <li>Home</li>
                     <li>About PUDI</li>
-                    <li>Why Us</li>
-                    <li>Contact</li>
+                    <li>Features</li>
+                    <li>Contact US</li>
 
                 </ul>
             </div>
