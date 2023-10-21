@@ -5,9 +5,9 @@ import Web from "./Assets/Web.png"
 const contactUs = () => {
     return (
         <div className="contactUs">
-        <p>Contact Us</p>
+        <p className="hidden">Contact Us</p>
 
-        <div className="contactUs-body">
+        <div className="contactUs-body hidden">
         <ul>
             <li><img src={Call}/><span>+91-7535900771</span></li>
             <li><img src={Email}/><span>www.pudi.co.in</span></li>

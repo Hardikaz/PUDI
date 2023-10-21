@@ -24,15 +24,15 @@ return (
 
 <Carousel className="sectionBg">
 <Carousel.Item>
-  <img src={BG1}/>
+  <img src={BG1} />
   
 </Carousel.Item>
 <Carousel.Item>
-  <img src={BG2} />
+  <img src={BG2}  />
   
 </Carousel.Item>
 <Carousel.Item>
-  <img src={BG3}/>
+  <img src={BG3} />
   
 </Carousel.Item>
 </Carousel>

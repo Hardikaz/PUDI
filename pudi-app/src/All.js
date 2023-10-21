@@ -1,22 +1,16 @@
 
-const btns = document.querySelectorAll(".nav-btn");
-const slides = document.querySelectorAll(".img-slide");
-
-var sliderNav = function(manual){
-    btns.forEach((btn) => {
-        btn.classList.remove("active");
-    });
-
-    slides.forEach((slide) => {
-        slide.classList.remove("active");
-    });
-
-    btns[manual].classList.add("active");
-    slides[manual].classList.add("active");
-}
-
-btns.forEach((btn, i) => {
-    btn.addEventListener("click", () => {
-        sliderNav(i)
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if(entry.isIntersecting){
+            entry.target.classList.add('show');
+        }
+        else{
+            entry.target.classList.remove('show');
+        }
     });
 });
+
+
+const hiddenElements=document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));

@@ -2,8 +2,8 @@ import React from "react";
 
 const infoSection = (props) =>{
     return (
-        <div className="infoSection">
-        <div className="infoSection-body">
+        <div className="infoSection ">
+        <div className="infoSection-body hidden">
          <div className="infoSection-image">
         
          <img src={props.src} alt={props.alt} />

@@ -7,8 +7,8 @@ import Support from "./Assets/support.png"
 const features = () =>{
     return (
         <div className="features">
-        <p>Features</p>
-        <div className="features_containers"> 
+        <p className="hidden">Features</p>
+        <div className="features_containers hidden"> 
              <Card src={JustInTime} name="Just in time"/>
              <Card src={Inventory} name="Inventory"/>
              <Card src={OneStop} name="One stop"/>

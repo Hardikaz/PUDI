@@ -10,7 +10,7 @@ import Features from "./Components/features.jsx"
 import ContactUs from "./Components/contactus"
 import Footer from "./Components/footer.jsx"
 import './App.css';
-import './All.js';
+import Script from './All.js';
 function App() {
   return (
     <div >
@@ -25,6 +25,7 @@ function App() {
       <Features/>
       <ContactUs/>
       <Footer/>
+      <script src={Script}></script>
     </div>
   );
 }
