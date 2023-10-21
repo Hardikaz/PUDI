@@ -59,7 +59,7 @@ color: white;
 
 /* SECTION BG */
 .sectionBg {
-  height: 87vh;
+  height: 84vh;
   width: 100vw;
   text-align: center;
   
@@ -220,7 +220,7 @@ display: flex;
   }
 /* FEATURES */
 .features{
-  height: 105vh;
+  height: 110vh;
   width: 100vw;
   background-color: blanchedalmond;
  

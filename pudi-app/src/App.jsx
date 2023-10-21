@@ -1,6 +1,6 @@
 
-import './App.css';
-import './All.js';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import SectionBg from "./Components/section-bg.jsx"
 import Navbar from "./Components/Navbar/navbar.jsx"
 import InfoSection from "./Components/InfoSection/infoSection"
@@ -9,7 +9,8 @@ import Sustainability from "./Components/Assets/sustainability.png"
 import Features from "./Components/features.jsx"
 import ContactUs from "./Components/contactus"
 import Footer from "./Components/footer.jsx"
-
+import './App.css';
+import './All.js';
 function App() {
   return (
     <div >
