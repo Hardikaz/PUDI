@@ -4,15 +4,15 @@ import logo from "../Assets/logo.png"
 
 const Navbar = () => {
     return (
-        <div className="navbar">
+        <div className="navbar" >
             <img className="logo" src={logo} alt="Here is an icon" />
 
-            <div className="nav-ele">
+            <div className="nav-ele" >
                 <ul>
-                    <li>Home</li>
-                    <li>About PUDI</li>
-                    <li>Features</li>
-                    <li>Contact US</li>
+                   <a href="#home" style={{textDecoration:"none"}}><li>Home</li></a>
+                   <a href="#about" style={{textDecoration:"none"}}><li>About PUDI</li></a>
+                   <a href="#feature" style={{textDecoration:"none"}}><li>Features</li></a>
+                   <a href="#contact" style={{textDecoration:"none"}}><li>Contact US</li></a>
 
                 </ul>
             </div>

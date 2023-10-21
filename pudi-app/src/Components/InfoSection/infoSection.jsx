@@ -2,7 +2,7 @@ import React from "react";
 
 const infoSection = (props) =>{
     return (
-        <div className="infoSection ">
+        <div className="infoSection " id="about">
         <div className="infoSection-body hidden">
          <div className="infoSection-image">
         

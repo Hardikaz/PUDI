@@ -6,7 +6,7 @@ import OneStop from "./Assets/onestop.png"
 import Support from "./Assets/support.png"
 const features = () =>{
     return (
-        <div className="features">
+        <div className="features" id="feature">
         <p className="hidden">Features</p>
         <div className="features_containers hidden"> 
              <Card src={JustInTime} name="Just in time"/>

@@ -4,7 +4,8 @@ import React from "react"
 
 const footer = () => {
  return (
-    <div className="footer hidden">
+    <div className="footer">
+
 
     </div>
  )
