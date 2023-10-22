@@ -269,8 +269,8 @@ display: flex;
   /* FEATURE_CARD CARD */
 
   .Card{
-  height: 40vh;
-  width: 20vw;
+  height: 30vh;
+  width: 15vw;
   border: 2px solid blanchedalmond;
   /* background-color: blanchedalmond; */
   background-color: var(--bg_color);
@@ -282,11 +282,13 @@ display: flex;
   align-items: center;
   border-radius: 20px;
   border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
   }
 
   .Card .Card_icon img{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
    
   }
 
