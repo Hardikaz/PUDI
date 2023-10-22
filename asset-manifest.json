@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PUDI/static/css/main.64f5b082.css",
+    "main.css": "/PUDI/static/css/main.3f8bdb49.css",
     "main.js": "/PUDI/static/js/main.ac4d6158.js",
     "static/js/787.fa6475aa.chunk.js": "/PUDI/static/js/787.fa6475aa.chunk.js",
     "static/media/bg3.png": "/PUDI/static/media/bg3.89470cbff8fc37f6b4c8.png",
@@ -17,12 +17,12 @@
     "static/media/support.png": "/PUDI/static/media/support.1ddd7ef2fe112b21ef28.png",
     "static/media/onestop.png": "/PUDI/static/media/onestop.8a3383b21ae1cc55a050.png",
     "index.html": "/PUDI/index.html",
-    "main.64f5b082.css.map": "/PUDI/static/css/main.64f5b082.css.map",
+    "main.3f8bdb49.css.map": "/PUDI/static/css/main.3f8bdb49.css.map",
     "main.ac4d6158.js.map": "/PUDI/static/js/main.ac4d6158.js.map",
     "787.fa6475aa.chunk.js.map": "/PUDI/static/js/787.fa6475aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64f5b082.css",
+    "static/css/main.3f8bdb49.css",
     "static/js/main.ac4d6158.js"
   ]
 }
