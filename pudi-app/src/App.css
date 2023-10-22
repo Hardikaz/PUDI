@@ -15,10 +15,10 @@
 /* Navbar */
 
 .logo{
-  height: 80px;
-  width: 80px;
-  margin: 10px;
-  padding: 10px;
+  height: 60px;
+  width: 60px;
+  margin: 0px;
+  /* padding: 10px; */
   background-color: rgba(0, 0, 0, 0.54);
   border: 1px solid rgba(255, 255, 255, 0.488);
 }
@@ -33,14 +33,16 @@
  position: sticky;
  width: 100vw;
  top: 0px;
- height: 15vh;
+ height: 10vh;
  z-index: 10;
+ 
  
 }
 
 .nav-ele ul{
   display: flex;
   flex-direction: row;
+  margin-top: 10px;
 }
 
 .nav-ele ul li{
@@ -59,7 +61,7 @@ color: white;
 
 /* SECTION BG */
 .sectionBg {
-  height: 84vh;
+  height: 89vh;
   width: 100vw;
   text-align: center;
   
@@ -67,7 +69,7 @@ color: white;
 
 .sectionBg img{
   
-  height: 87vh;
+  height: 89vh;
   width: 100vw;
  }
 
@@ -413,12 +415,55 @@ display: flex;
   /* Footer */
 
   .footer{
-    height: 30vh;
+    height: 40vh;
     width: 100vw;
-    
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    flex-direction: column;
   }
 
+  .footer .footer-above{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+  }
+
+  .footer .footer-above .footer-above-left{
+    display: flex;
+    flex-direction: row;   
+  }
+
+  .footer .footer-above .footer-above-left .footer-above-left-content{
+    border: 3px solid rgba(255, 255, 255, 0.648);
+    margin-left: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+
+    flex-direction: column;
+    padding: 20px;
+
+    color: white;
+    font-weight: bold;
+  }
+
+  .footer .footer-above .footer-above-right svg{
+  margin: 50px 10px 0px 10px;
+  text-align: right;
+  }
+
+  .footer .footer-above{
+    border-bottom: 3px solid rgba(255, 255, 255, 0);
+    padding-bottom: 20px;
+  }
+
+  .footer .footer-below{
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+  }
   /* Hidden  */
  /* .hidden{
   opacity: 0;
