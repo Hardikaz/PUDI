@@ -515,9 +515,16 @@ display: flex;
   .navbar .nav-ele ul{
     display: none;
   }
-  
+  .infoSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
   .infoSection-body{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .infoSection-image{
@@ -530,13 +537,22 @@ display: flex;
   }
   .infoSection-content{
     height: auto;
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 20px;
+    width: 100%;
   }
 
+  .infoSection2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
   
   .infoSection2-body{
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .infoSection2-img{
@@ -552,7 +568,9 @@ display: flex;
 
   .infoSection2-content{
     height: auto;
-    font-size: 10px;
+    font-size: 15px;
+    width: 100%;
+
   }
 
   /* Feature */
@@ -567,8 +585,13 @@ display: flex;
 
   .Card{
     width: 40vw;
+    margin: 5px 10px;
   }
 
+  .Card p{
+    font-weight: lighter;
+    font-weight: 400;
+  }
   /* Contact  us*/
 
   .contactUs{
