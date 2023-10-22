@@ -568,5 +568,37 @@ display: flex;
   .Card{
     width: 40vw;
   }
+
+  /* Contact  us*/
+
+  .contactUs{
+    height: 170vh;
+  }
+  .contactUs p{
+    font-size:70px ;
+    padding-top: 100px;
+  }
+
+  .contactUs-body{
+    grid-template-columns: auto;
+  }
+  .contactUs-body .divider{
+    display: none;
+  }
+
+  .contactUs .contactUs-body ul li{
+    height: 10vh;
+    width: 75vw;
+    font-size: 50px;
+  }
+  .contactUs .contactUs-body .contactUs-info{
+    font-size: 17px;
+  }
+  .contactUs .contactUs-body .contactUs-body-form form .input{    
+  width: 80vw;
+}
+.contactUs .contactUs-body .contactUs-body-form form .input-area{
+  width: 80vw;
+}
 }
 
