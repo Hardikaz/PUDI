@@ -52,13 +52,27 @@
   margin: 0px 20px 0px 20px;
   font-size: 20px;
   font-weight: bolder;
+  position: relative;
 color: black;
 }
 
 .nav-ele ul li:hover{
   color: var(--theme_color);
   cursor:grab ;
-  transition: 0.2s;
+  transition: 0.5s;
+}
+
+.navbar .nav-ele ul li:before{
+  content:"";
+  position: absolute;
+  background-color: rgb(73, 237, 73);
+  height: 3px;
+  width: 0%;
+  bottom: -2px;
+  transition: 0.3s;
+}
+.navbar .nav-ele ul li:hover:before{
+  width:100%;
 }
 
 /* SECTION BG */
