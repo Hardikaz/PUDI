@@ -554,4 +554,19 @@ display: flex;
     height: auto;
     font-size: 10px;
   }
+
+  /* Feature */
+
+  
+  /* Card */
+
+
+  .features_containers{
+    grid-template-columns: auto auto;
+  }
+
+  .Card{
+    width: 40vw;
+  }
 }
+
