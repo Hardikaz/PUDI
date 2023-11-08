@@ -1,2 +1,3 @@
 # PUDI
-A new project
+A new responsive project using ReactJs.
+ 
