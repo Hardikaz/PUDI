@@ -665,5 +665,67 @@ display: flex;
 }
 
 
+
 }
 
+/* Our Team Page*/
+
+.OurTeam-heading{
+  color: var(--text_color);
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.OurTeam-members{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.OurTeam-members-cards{
+
+  height: 60vh;
+  width: 30vw;
+  border: 5px solid var(--theme_color);
+  border-radius: 5px;  
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.OurTeam-members-cards img{
+  height: 200px;
+  width: 200px;  
+}
+
+.OurTeam-members-cards-heading{
+  color: var(--theme_color);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.OurTeam-members-cards-subHeading{
+  color:var(--text_color);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.OurTeam-members ul{
+  display: flex;
+
+}
+
+.OurTeam-members ul li{
+  list-style: none;
+  margin: 10px;
+}
+
+.OurTeam-members ul li svg{
+  height: 30px;
+  width: 30px;
+}
