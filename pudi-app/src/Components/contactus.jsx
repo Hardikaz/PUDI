@@ -34,7 +34,10 @@ const contactUs = () => {
             </div>
             </li>
             {/* <li><textarea placeholder="Write a message"></textarea></li> */}
+
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3559.360974164618!2d81.03497377543763!3d26.860270176678508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDUxJzM3LjAiTiA4McKwMDInMTUuMiJF!5e0!3m2!1sen!2sin!4v1702464619544!5m2!1sen!2sin" width="400" height="300" style={{border:"0", height:"200px"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
         </ul>
+
         <div className="divider"></div>
         <div className="contactUs-body-form">
             <form action="#" method="POST">
