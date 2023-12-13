@@ -330,7 +330,7 @@ display: flex;
     gap: 20px;
   }
 
-  .contactUs .contactUs-body .divider{
+  /* .contactUs .contactUs-body .divider{
    
     height: 60vh;
     width: 5px;
@@ -338,7 +338,7 @@ display: flex;
     border-radius: 50px;
 
   }
-  
+   */
   .contactUs .contactUs-body ul li{
     list-style: none;
     text-align: left;
@@ -378,33 +378,46 @@ display: flex;
     height: 80vh;
     width: 40vw;
     padding: 0px 10px 0px 10px;
+    padding: 10px;
    
     
   }
+
+  .contactUs-body-form{
+    background-color: rgb(234, 253, 230);
+    height: 69vh;
+    border-top: 5px solid var(--theme_color);
+    border-bottom: 5px solid var(--theme_color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
   .contactUs .contactUs-body .contactUs-body-form form .input{
-    background-color: rgba(39, 66, 67, 0.746); 
+    /* background-color: rgba(39, 66, 67, 0.746); 
     outline: none;
-    border: none;
-    height: 80px;
+    border: none; */
+    
+    height: 50px;
     width: 35vw;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--theme_color);
+    color: var(--text_color);
     margin-bottom: 20px;
+    margin-left: 20px;
+    
   }
 
   .contactUs .contactUs-body .contactUs-body-form form .input-area{
-    background-color: rgba(39, 66, 67, 0.746); 
-   
     outline: none;
     border: none;
-    height: 50vh;
+    height: 25vh;
     width: 35vw;
     border-radius: 10px;
     padding: 20px;
+    border: 2px solid var(--theme_color);
+    margin-left: 20px;
   }
 
   .contactUs .contactUs-body .contactUs-body-form form label{
-    color: rgb(41, 77, 75);
+    color: rgba(41, 77, 75, 0.761);
     font-size: 20px;
     font-weight: bold;
   }
@@ -420,12 +433,13 @@ display: flex;
   }
 
   .contactUs .contactUs-body .contactUs-body-form form button{
-    width: 100px;
-    height: 50px;
+    width: 80px;
+    height: 40px;
     margin-top: 10px;
     border-radius: 5px;
     font-weight: bold;
     margin-bottom: 10px;
+    margin-left: 20px;
   }
 
   .contactUs .contactUs-body .contactUs-body-form form button:hover{
@@ -439,12 +453,13 @@ display: flex;
 
   
   .contactUs-body-left{
-    background-color: rgb(249, 248, 250);
+    background-color: rgb(234, 253, 230);
     border-top: 5px solid var(--theme_color);
     border-bottom: 5px solid var(--theme_color);
     height: 70vh;
     width: 30vw;
     padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  }
 
   .contactUs-info .contactUs-body-left-heading{
@@ -452,7 +467,7 @@ display: flex;
     color: var(--text_color);
     margin: 0;
     padding: 0;
-
+    text-align: left;
   }
   
 
