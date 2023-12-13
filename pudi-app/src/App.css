@@ -338,44 +338,39 @@ display: flex;
     border-radius: 50px;
 
   }
-  .contactUs-body ul{
-   
   
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    
-  }
   .contactUs .contactUs-body ul li{
     list-style: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    text-align: left;
+   display: flex;
+   justify-content: flex-start;
+   margin-bottom: 10px;
+
     
-    padding: 0px 30px 0px 10px;
-    background-color: rgba(39, 66, 67, 0.746);
+    
+     
+   
+    height: 10vh;
+    /* background-color: rgba(39, 66, 67, 0.746);
     border-radius: 10px;
     height: 80px;
-    width: 35vw;
+    width: 35vw; */
   }
 
   .contactUs .contactUs-body ul li img{
-    height: 100px;
-    width: 100px;
-    margin-right: 10px;
+    height: 65px;
+    width: 65px;
+    text-align: left;
+    margin-right: 2px;
   }
 
   .contactUs .contactUs-body .contactUs-info{
   color: var(--text_color);
+
   font-size: 20px;
   font-weight: bold ;
   }
-
+  
   .contactUs .contactUs-body .contactUs-body-form form{
     
     display: flex;
@@ -439,6 +434,35 @@ display: flex;
     transition: 0.5s;
     
   }
+
+  /* Update-2 ContactUs */
+
+  
+  .contactUs-body-left{
+    background-color: rgb(249, 248, 250);
+    border-top: 5px solid var(--theme_color);
+    border-bottom: 5px solid var(--theme_color);
+    height: 70vh;
+    width: 30vw;
+    padding: 30px;
+ }
+
+  .contactUs-info .contactUs-body-left-heading{
+    font-size: 20px;
+    color: var(--text_color);
+    margin: 0;
+    padding: 0;
+
+  }
+  
+
+  .contactUs-info .contactUs-body-left-subHeading{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
   /* Footer */
 
   .footer{
@@ -614,9 +638,10 @@ display: flex;
     width: 75vw;
     font-size: 50px;
   }
-  .contactUs .contactUs-body .contactUs-info{
+  /* .contactUs .contactUs-body .contactUs-info{
     font-size: 17px;
-  }
+  } */
+
   .contactUs .contactUs-body .contactUs-body-form form .input{    
   width: 80vw;
 }

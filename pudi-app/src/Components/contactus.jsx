@@ -8,10 +8,31 @@ const contactUs = () => {
         <p className="hidden">Contact Us</p>
 
         <div className="contactUs-body hidden">
-        <ul>
-            <li><img src={Call} alt="icon here"/><span  className="contactUs-info">+91-7535900771</span></li>
-            <li><img src={Email} style={{height:"60px", borderRadius:"10px"}} alt="icon here"/><span className="contactUs-info">www.pudi.co.in</span></li>
-            <li><img src={Web} style={{height:"80px"}}alt="icon here"/><span className="contactUs-info">info@pudi.co.in</span></li>
+        <ul className="contactUs-body-left">
+            <li>
+            <img src={Call} alt="icon here"/>
+            <div className="contactUs-info">
+            <p className="contactUs-body-left-heading">Phone no:</p>
+            <p className="contactUs-body-left-subHeading">+91-7535900771</p>           
+            </div>
+            </li>
+
+            <li>
+            <img src={Email}  alt="icon here"/>
+            <div className="contactUs-info">
+            <p className="contactUs-body-left-heading">Email:</p>
+            <p className="contactUs-body-left-subHeading">pudi@gmail.com</p>           
+            </div>
+            </li>
+
+
+            <li>
+            <img src={Web} alt="icon here"/>           
+            <div className="contactUs-info">
+            <p className="contactUs-body-left-heading">Website:</p>
+            <p className="contactUs-body-left-subHeading">www.pudi.co.in</p>           
+            </div>
+            </li>
             {/* <li><textarea placeholder="Write a message"></textarea></li> */}
         </ul>
         <div className="divider"></div>
