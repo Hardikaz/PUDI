@@ -1,6 +1,8 @@
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Routes, Route} from 'react-router-dom'
+import Content from './contents.jsx'
 import SectionBg from "./Components/section-bg.jsx"
 import Navbar from "./Components/Navbar/navbar.jsx"
 import InfoSection from "./Components/InfoSection/infoSection"
@@ -10,7 +12,7 @@ import Features from "./Components/features.jsx"
 import ContactUs from "./Components/contactus"
 import Footer from "./Components/footer.jsx"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import OurTeam from "./Components/ourTeam.jsx"
 import './App.css';
 import Script from './All.js';
 
@@ -18,7 +20,11 @@ function App() {
   return (
     <div >
       <Navbar/>
-      <SectionBg/>
+      <Routes>
+        <Route path='/our-team' element={<OurTeam/>}/>
+        <Route path='/' element={<Content />}> </Route>
+      </Routes>
+      {/* <SectionBg/>
       <InfoSection 
       src={Sustainability} 
       alt="An image"
@@ -27,7 +33,7 @@ function App() {
       <InfoSection2/>
       <Features/>
       <ContactUs/>
-      <FontAwesomeIcon icon="fa-brands fa-youtube" />
+      <FontAwesomeIcon icon="fa-brands fa-youtube" /> */}
       <Footer/>
       <script src={Script}></script>
     </div>
