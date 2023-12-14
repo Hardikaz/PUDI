@@ -21,8 +21,10 @@ function App() {
     <div >
       <Navbar/>
       <Routes>
+        <Route path='/' element={<Content />}/>
         <Route path='/our-team' element={<OurTeam/>}/>
-        <Route path='/' element={<Content />}> </Route>
+        
+        
       </Routes>
       {/* <SectionBg/>
       <InfoSection 

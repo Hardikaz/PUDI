@@ -7,7 +7,7 @@ const ourTeam = () => {
        <>
         <div className="OurTeam-heading">Our Team</div>
         <div className="OurTeam">
-            <div>
+            <div className="OurTeam-para">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
          <div className="OurTeam-members">
@@ -48,6 +48,22 @@ const ourTeam = () => {
          </div>
 
          </div>
+        </div>
+
+        <div className="OurGoal">
+            <div className="OurGoal-heading">OUR GOAL</div>
+
+            <div className="OurGoal-para-1">PUDI's primary goal is to increase the effectiveness of the post-harvest food chain, and provide farmers one stop shop for all Shelf life extension products.</div>
+
+            <div className="OurGoal-para-2">
+            PUDI is committed to conducting research and providing the safest, most effective, and environment friendly packaging products that can reduce the dump ratio and increase exports.
+            </div>
+
+            <div className="OurGoal-para-3">
+            PUDI works diligently to control shelf life and partners with top research institutions.
+            </div>
+
+
         </div>
        </>
     )
