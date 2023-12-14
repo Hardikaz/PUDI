@@ -2,6 +2,10 @@ import Profile1 from '../Components/Assets/profile-pic.png'
 
 import Profile2 from '../Components/Assets/profile-pic2.png'
 
+import Vimi from './visionmissionpage'
+
+import Values from './values'
+
 const ourTeam = () => {
     return (
        <>
@@ -65,6 +69,8 @@ const ourTeam = () => {
 
 
         </div>
+        <Values />
+        <Vimi />
        </>
     )
 }
