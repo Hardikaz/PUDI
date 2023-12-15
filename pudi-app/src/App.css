@@ -750,6 +750,36 @@ display: flex;
   font-weight: bolder;
 }
 
+.OurTeam-members-cards ul li a svg{
+  height: 35px;
+  width: 35px;
+  
+}
+
+.insta:hover{
+  color: rgb(248, 6, 119);
+}
+
+.linkedIn:hover{
+  color: blue;
+}
+.eX:hover{
+  color: rgb(0, 234, 255);
+  
+}
+
+.facebook:hover{
+  color: #1a7bfa;
+}
+
+/* .OurTeam-members-cards svg:hover{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.496);
+  color: white;
+  transition: 1s;
+  cursor: grab;
+} */
 .OurTeam-members ul{
   display: flex;
 
