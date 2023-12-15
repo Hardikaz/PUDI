@@ -749,6 +749,7 @@ display: flex;
   display: flex;
    align-items: center;
   flex-direction: column;
+  height: 90vh;
 }
 
 .OurGoal-heading{
@@ -797,9 +798,10 @@ display: flex;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 60vh;
 }
 .valuesPage-heading{
-  margin-top: 50px;
+ 
   color: var(--theme_color);
   font-size: 50px;
   font-weight: bold;
@@ -822,5 +824,65 @@ display: flex;
   font-size: 50px;
 }
 
+/* Vission Mission */
+
+.vimi{
+  
+  width: 100vw;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  
+}
+
+.vimi .vision-card{
+  width: 40vw;
+  
+  height: 40vh;
+ 
+}
+
+.vision-card-heading{
+  font-size: 50px;
+  color: var(--theme_color);
+  font-weight: 500;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  
+}
+
+.vimi .mission-card{
+  width: 40vw;
+
+  height: 40vh;
+}
+
+.mission-card-heading{
+  font-size: 49px;
+  color: var(--theme_color);
+  font-weight: 500;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  
+}
+
+.vision-card p{
+  color: var(--text_color);
+  font-weight: 450;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.mission-card p{
+  color: var(--text_color);
+  font-weight: 450;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
 
 
