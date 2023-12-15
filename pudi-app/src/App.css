@@ -532,16 +532,10 @@ display: flex;
     color: white;
     font-weight: bold;
   }
-  /* Hidden  */
- /* .hidden{
-  opacity: 0;
-  transition:all 0.5s;
-}  */
+  
 
- /* Show */
-/* .show{
-  opacity: 1;
-} */
+ 
+
 
 @media screen and ( max-width:500px )
 {
@@ -670,6 +664,9 @@ display: flex;
 
 /* Our Team Page*/
 
+.OurTeam{
+  height: 100vh;
+}
 .OurTeam-heading{
   color: var(--text_color);
   font-size: 40px;
@@ -686,7 +683,7 @@ display: flex;
 }
 .OurTeam-members-cards{
 
-  height: 60vh;
+  height: 55vh;
   width: 30vw;
   border: 2px solid var(--theme_color);
   border-radius: 5px;  
@@ -699,8 +696,8 @@ display: flex;
 }
 
 .OurTeam-members-cards img{
-  height: 200px;
-  width: 200px;  
+  height: 180px;
+  width: 180px;  
 }
 
 .OurTeam-members-cards-heading{

@@ -13,7 +13,8 @@ const vimi = () => {
 
         <div className="mission-card">
         <div className="mission-card-heading">MISSION</div>
-        <p>Our mission is to live out our core principles, which put the development and empowerment of our team members at the forefront. As a consequence, our staff will establish cherished, reliable, and long-lasting connections with customers and business partners.</p>
+        <p>Our mission is to live out our core principles, which put the development and empowerment of our team members at the forefront. </p>
+        <p>As a consequence, our staff will establish cherished, reliable, and long-lasting connections with customers and business partners.</p>
         </div>
         </div>
         </>
