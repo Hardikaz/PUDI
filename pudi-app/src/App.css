@@ -417,7 +417,7 @@ display: flex;
     width: 35vw;
     border-radius: 5px;
     border: 1px solid var(--theme_color);
-    color: var(--text_color);
+    padding-left: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
     
@@ -556,8 +556,11 @@ display: flex;
 
  .footer-socialMedia svg{
   margin: 30px 40px;
+  
  }
-
+ .footer-socialMedia svg:hover{
+  color: black;
+ }
  .footer-socialMedia-intro{
   display: flex;
   margin-bottom: 20px;
