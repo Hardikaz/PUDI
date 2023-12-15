@@ -25,7 +25,7 @@ function App() {
     <div >
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Content />}/>
+        <Route path='/PUDI' element={<Content />}/>
         <Route path='/our-team' element={<OurTeam/>}/>
         
         
