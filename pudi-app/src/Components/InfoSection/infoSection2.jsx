@@ -5,12 +5,15 @@ const infoSection2 = () =>{
         <div className="infoSection2">
             <div className="infoSection2-body " data-aos="fade-up">
                 <div className="infoSection2-content">
-                <p>Freshness is vital for the agriculture industry. Though some fruits remain safe to eat for months, they may have shorter shelf lives for optimal flavor and freshness.
+                <div className="infoSection2-content-heading">
+                    <p>Freshness is Vital</p>
+                </div>
+                <p>Freshness is vital for the agriculture industry. Though some fruits remain safe to eat for months, <span style={{fontWeight:"bold",color:"rgb(3, 251, 152)",fontSize:"25px",fontStyle:"italic"}}>they may have shorter shelf lives for optimal flavor and freshness.</span>
 ​                <br/>
 <br/>
 Freshness is a critical aspect when it comes to fruits. Fresh fruits not only taste better but are also more nutritious.
 ​
-Packaging must account for keeping the goods at their peak until purchase.</p>
+<span style={{fontWeight:"bold",color:"rgb(3, 251, 152)",fontSize:"25px",fontStyle:"italic"}}>Packaging must account for keeping the goods at their peak until purchase.</span></p>
                 </div>
                 
                 <div className="infoSection2-img">
