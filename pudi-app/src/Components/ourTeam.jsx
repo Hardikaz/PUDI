@@ -9,14 +9,14 @@ import Values from './values'
 const ourTeam = () => {
     return (
        <>
-        <div className="OurTeam-heading">Our Team</div>
-        <div className="OurTeam">
-            <div className="OurTeam-para">
+        <div className="OurTeam-heading" data-aos="fade-up">Our Team</div>
+        <div className="OurTeam" data-aos="fade-up">
+            <div className="OurTeam-para" data-aos="fade-up">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
          <div className="OurTeam-members">
 
-         <div className="OurTeam-members-cards">
+         <div className="OurTeam-members-cards" data-aos="fade-right">
          <img src={Profile1}/>
          
          <p className="OurTeam-members-cards-heading">Mr Naman Bajpai</p>
@@ -33,7 +33,7 @@ const ourTeam = () => {
          </ul>
          
          </div>
-         <div className="OurTeam-members-cards">
+         <div className="OurTeam-members-cards" data-aos="fade-left">
          <img src={Profile2}/>
          
          <p className="OurTeam-members-cards-heading">Mr Harshit Mishra</p>
@@ -54,16 +54,16 @@ const ourTeam = () => {
          </div>
         </div>
 
-        <div className="OurGoal">
-            <div className="OurGoal-heading">OUR GOAL</div>
+        <div className="OurGoal" >
+            <div className="OurGoal-heading" data-aos="fade-up">OUR GOAL</div>
 
-            <div className="OurGoal-para-1">PUDI's primary goal is to increase the effectiveness of the post-harvest food chain, and provide farmers one stop shop for all Shelf life extension products.</div>
+            <div className="OurGoal-para-1" data-aos="fade-left">PUDI's primary goal is to increase the effectiveness of the post-harvest food chain, and provide farmers one stop shop for all Shelf life extension products.</div>
 
-            <div className="OurGoal-para-2">
+            <div className="OurGoal-para-2" data-aos="fade-left">
             PUDI is committed to conducting research and providing the safest, most effective, and environment friendly packaging products that can reduce the dump ratio and increase exports.
             </div>
 
-            <div className="OurGoal-para-3">
+            <div className="OurGoal-para-3" data-aos="fade-down">
             PUDI works diligently to control shelf life and partners with top research institutions.
             </div>
 

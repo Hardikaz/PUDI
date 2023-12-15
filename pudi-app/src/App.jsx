@@ -20,7 +20,7 @@ import 'aos/dist/aos.css';
 
 function App() {
 
-  Aos.init({duration: "2000"})
+  Aos.init({duration: "2000",delay: "50"})
   return (
     <div >
       <Navbar/>

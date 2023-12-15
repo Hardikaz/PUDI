@@ -5,7 +5,7 @@ import Web from "./Assets/Web.png"
 const contactUs = () => {
     return (
         <div className="contactUs" id="contact">
-        <p className="hidden">Contact Us</p>
+        <p className="hidden" data-aos="fade-up">Contact Us</p>
 
         <div className="contactUs-body hidden" data-aos="fade-up">
         <ul className="contactUs-body-left" data-aos="fade-right">
