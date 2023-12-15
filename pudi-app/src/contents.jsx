@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const contents = () => {
     return (
         <>
-        <SectionBg/>
+      <SectionBg/>
       <InfoSection 
       src={Sustainability} 
       alt="An image"

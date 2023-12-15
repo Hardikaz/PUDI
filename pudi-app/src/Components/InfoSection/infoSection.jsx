@@ -1,9 +1,13 @@
 import React from "react";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const infoSection = (props) =>{
+    Aos.init()
+    
     return (
         <div className="infoSection " id="about">
-        <div className="infoSection-body hidden">
+        <div className="infoSection-body hidden" data-aos="fade-up">
          <div className="infoSection-image">
         
          <img src={props.src} alt={props.alt} />

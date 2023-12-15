@@ -7,8 +7,8 @@ const contactUs = () => {
         <div className="contactUs" id="contact">
         <p className="hidden">Contact Us</p>
 
-        <div className="contactUs-body hidden">
-        <ul className="contactUs-body-left">
+        <div className="contactUs-body hidden" data-aos="fade-up">
+        <ul className="contactUs-body-left" data-aos="fade-right">
             <li>
             <img src={Call} alt="icon here"/>
             <div className="contactUs-info">
@@ -39,7 +39,7 @@ const contactUs = () => {
         </ul>
 
         <div className="divider"></div>
-        <div className="contactUs-body-form">
+        <div className="contactUs-body-form" data-aos="fade-left">
             <form action="#" method="POST">
             <label for="name">Name: </label> 
             <input type="text" className="input" placeholder="Enter your name" name="name"/>

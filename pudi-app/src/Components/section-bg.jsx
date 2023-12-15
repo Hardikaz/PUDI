@@ -22,7 +22,7 @@ return (
 //     </div>
 // </div> 
 
-<Carousel className="sectionBg" id="home">
+<Carousel className="sectionBg animation" id="home" >
 <Carousel.Item>
   <img src={BG1} />
   
