@@ -171,8 +171,15 @@ display: flex;
   font-size: 20px;
   font-weight: bold;
   font-family: cursive;
+  flex-direction: column;
 }
-
+.infoSection-content-heading{
+  color: var(--theme_color);
+  letter-spacing: 2px;
+  font-style: oblique;
+  font-size: 30px;
+  text-decoration: underline;
+}
 .infoSection-content p{
   padding: 0px 30px 0px 30px;
 }
@@ -668,7 +675,7 @@ display: flex;
   height: 100vh;
 }
 .OurTeam-heading{
-  color: var(--text_color);
+  color: var(--theme_color);
   font-size: 40px;
   font-weight: bold;
   display: flex;

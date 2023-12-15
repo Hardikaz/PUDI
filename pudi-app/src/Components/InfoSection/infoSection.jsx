@@ -8,16 +8,20 @@ const infoSection = (props) =>{
     return (
         <div className="infoSection " id="about">
         <div className="infoSection-body hidden" data-aos="fade-up">
+        
          <div className="infoSection-image">
         
          <img src={props.src} alt={props.alt} />
          </div>
          <div className="infoSection-content">
-         <p>The Environmental Protection Agency (EPA) estimates that product packaging makes up 29.9% of the material in municipal solid waste landfills, or 80.1 million tons of trash.
+         <div className="infoSection-content-heading">
+            <p>PUDI implements sustainable packaging </p>
+         </div>
+         <p>The Environmental Protection Agency (EPA) estimates that <span style={{fontWeight:"bold",color:"rgb(3, 251, 152)",fontSize:"25px",fontStyle:"italic"}}>product packaging makes up 29.9% of the material</span> in municipal solid waste landfills, or 80.1 million tons of trash.
          <br/>
          <br/>
          <br/>
-         Companies today need to be more conscious of the environmental impact of their packaging. The future lies in sustainable packaging that consumes fewer resources, generates less trash, and promotes recycling.</p>
+         Companies today need to be more conscious of the environmental impact of their packaging. The future lies in <span style={{fontWeight:"bold",color:"rgb(3, 251, 152)",fontSize:"25px",fontStyle:"italic"}}>sustainable packaging that consumes fewer resources, generates less trash, and promotes recycling.</span></p>
          </div>
          </div>
         </div>
