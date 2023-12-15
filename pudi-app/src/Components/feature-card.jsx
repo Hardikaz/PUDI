@@ -2,7 +2,7 @@ import react from "react"
 
 const features_card = (props) => {
     return (
-        <div className="Card">
+        <div className="Card" data-aos="fade-up">
 
         <div className="Card_icon">
         <img src={props.src} alt="Image"/>

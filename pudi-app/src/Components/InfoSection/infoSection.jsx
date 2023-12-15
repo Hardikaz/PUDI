@@ -7,7 +7,7 @@ const infoSection = (props) =>{
     
     return (
         <div className="infoSection " id="about">
-        <div className="infoSection-body hidden" data-aos="fade-up">
+        <div className="infoSection-body hidden">
         
          <div className="infoSection-image">
         

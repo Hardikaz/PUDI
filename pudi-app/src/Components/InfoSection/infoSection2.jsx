@@ -3,10 +3,10 @@ import Freshness from "../Assets/Freshness.png"
 const infoSection2 = () =>{
     return (
         <div className="infoSection2">
-            <div className="infoSection2-body " data-aos="fade-up">
+            <div className="infoSection2-body " >
                 <div className="infoSection2-content">
-                <div className="infoSection2-content-heading" data-aos="fade-up">
-                    <p>Freshness is Vital</p>
+                <div className="infoSection2-content-heading">
+                    <p data-aos="fade-up">Freshness is Vital</p>
                 </div>
                 <p data-aos="fade-up">Freshness is vital for the agriculture industry. Though some fruits remain safe to eat for months, <span style={{fontWeight:"bold",color:"rgb(3, 251, 152)",fontSize:"25px",fontStyle:"italic"}}>they may have shorter shelf lives for optimal flavor and freshness.</span>
 ​                <br/>

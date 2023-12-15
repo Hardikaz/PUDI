@@ -499,10 +499,10 @@ display: flex;
   /* Footer */
 
   .footer{
-    height: 40vh;
+    height: 45vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     /* background-color: blueviolet; */
     background-color: rgba(0, 128, 0, 0.726);
@@ -552,7 +552,27 @@ display: flex;
   }
   
 
- 
+ /* Update 2 */
+
+ .footer-socialMedia svg{
+  margin: 30px 40px;
+ }
+
+ .footer-socialMedia-intro{
+  display: flex;
+  margin-bottom: 20px;
+ }
+ .footer-socialMedia-intro img{
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+ }
+
+ .footer-socialMedia-last{
+  color: white;
+  font-size: 20px;
+  font-style: oblique;
+ }
 
 
 @media screen and ( max-width:500px )

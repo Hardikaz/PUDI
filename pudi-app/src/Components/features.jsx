@@ -8,13 +8,13 @@ const features = () =>{
     return (
         <div className="features" id="feature">
         <p className="hidden" data-aos="fade-up">Features</p>
-        <div className="features_containers hidden" data-aos="fade-up" > 
-             <Card data-aos="fade-up" src={JustInTime} name="Just in time" />
-             <Card data-aos="fade-up"src={Inventory} name="Inventory" />
-             <Card data-aos="fade-up" src={OneStop} name="One stop" />             
-             <Card data-aos="fade-up" src={Support} name="24/7 Support"/>
-             <Card data-aos="fade-up" src={Inventory} name="Inventory"/>
-             <Card data-aos="fade-up" src={Inventory} name="Inventory"/>
+        <div className="features_containers hidden"  > 
+             <Card  src={JustInTime} name="Just in time" />
+             <Card src={Inventory} name="Inventory" />
+             <Card  src={OneStop} name="One stop" />             
+             <Card  src={Support} name="24/7 Support"/>
+             <Card  src={Inventory} name="Inventory"/>
+             <Card  src={Inventory} name="Inventory"/>
              
         </div>
         </div>
