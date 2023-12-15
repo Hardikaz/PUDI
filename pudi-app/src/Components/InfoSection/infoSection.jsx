@@ -11,13 +11,13 @@ const infoSection = (props) =>{
         
          <div className="infoSection-image">
         
-         <img src={props.src} alt={props.alt} />
+         <img data-aos="fade-up" src={props.src} alt={props.alt} />
          </div>
          <div className="infoSection-content">
          <div className="infoSection-content-heading">
-            <p>PUDI implements sustainable packaging </p>
+            <p data-aos="fade-up">PUDI implements sustainable packaging </p>
          </div>
-         <p>The Environmental Protection Agency (EPA) estimates that <span style={{fontWeight:"bold",color:"rgb(3, 251, 152)",fontSize:"25px",fontStyle:"italic"}}>product packaging makes up 29.9% of the material</span> in municipal solid waste landfills, or 80.1 million tons of trash.
+         <p data-aos="fade-up">The Environmental Protection Agency (EPA) estimates that <span style={{fontWeight:"bold",color:"rgb(3, 251, 152)",fontSize:"25px",fontStyle:"italic"}}>product packaging makes up 29.9% of the material</span> in municipal solid waste landfills, or 80.1 million tons of trash.
          <br/>
          <br/>
          <br/>

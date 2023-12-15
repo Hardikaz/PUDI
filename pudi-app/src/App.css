@@ -172,6 +172,7 @@ display: flex;
   font-weight: bold;
   font-family: cursive;
   flex-direction: column;
+  letter-spacing: 2px;
 }
 .infoSection-content-heading{
   color: var(--theme_color);
@@ -245,6 +246,7 @@ display: flex;
     font-weight: bold;
     font-family: cursive;
     flex-direction: column;
+    letter-spacing: 2px;
   }
 
   .infoSection2-img img{
